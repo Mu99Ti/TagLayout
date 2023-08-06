@@ -10,6 +10,8 @@
 		7BD5D6332A7F58CE00738179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5D6322A7F58CE00738179 /* AppDelegate.swift */; };
 		7BD5D6372A7F58CE00738179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5D6362A7F58CE00738179 /* ViewController.swift */; };
 		7BD5D63C2A7F58CF00738179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BD5D63B2A7F58CF00738179 /* Assets.xcassets */; };
+		7BD5D6472A7F598700738179 /* TagLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5D6462A7F598700738179 /* TagLayout.swift */; };
+		7BD5D6492A7F5DAB00738179 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5D6482A7F5DAB00738179 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		7BD5D6362A7F58CE00738179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7BD5D63B2A7F58CF00738179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BD5D6402A7F58CF00738179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD5D6462A7F598700738179 /* TagLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLayout.swift; sourceTree = "<group>"; };
+		7BD5D6482A7F5DAB00738179 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			children = (
 				7BD5D6322A7F58CE00738179 /* AppDelegate.swift */,
 				7BD5D6362A7F58CE00738179 /* ViewController.swift */,
+				7BD5D6482A7F5DAB00738179 /* CustomCell.swift */,
+				7BD5D6462A7F598700738179 /* TagLayout.swift */,
 				7BD5D63B2A7F58CF00738179 /* Assets.xcassets */,
 				7BD5D6402A7F58CF00738179 /* Info.plist */,
 			);
@@ -127,7 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD5D6472A7F598700738179 /* TagLayout.swift in Sources */,
 				7BD5D6372A7F58CE00738179 /* ViewController.swift in Sources */,
+				7BD5D6492A7F5DAB00738179 /* CustomCell.swift in Sources */,
 				7BD5D6332A7F58CE00738179 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
